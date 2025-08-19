@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Electronics",
+    "description": "Devices, gadgets, and digital equipment like phones, laptops, cameras, headphones, and more. Features the latest innovations from Apple, Samsung, Sony, and other leading brands.",
+    "createdAt": "2025-06-27T05:31:45.827+00:00",
+    "updatedAt": "2025-06-27T05:31:45.827+00:00"
+  },
+  {
+    "name": "Fashion & Apparel",
+    "description": "Trendy fashion items and premium apparel including athletic wear, casual clothing, footwear, and accessories. From Nike and Adidas to Lululemon and Levi's, find your perfect style.",
+    "createdAt": "2025-06-27T05:31:45.827+00:00",
+    "updatedAt": "2025-06-27T05:31:45.827+00:00"
+  },
+  {
+    "name": "TVs & Home Entertainment",
+    "description": "Immersive home entertainment systems featuring 4K and 8K televisions, smart TVs, gaming consoles, and audio equipment. Experience cinema-quality viewing with Samsung QLED, LG OLED, and more.",
+    "createdAt": "2025-06-27T05:31:45.827+00:00",
+    "updatedAt": "2025-06-27T05:31:45.827+00:00"
+  },
+  {
+    "name": "Home & Kitchen Appliances",
+    "description": "Essential home and kitchen appliances that make daily life easier and more enjoyable. From Instant Pot pressure cookers to KitchenAid mixers and Vitamix blenders, transform your cooking experience.",
+    "createdAt": "2025-06-27T05:31:45.827+00:00",
+    "updatedAt": "2025-06-27T05:31:45.827+00:00"
+  },
+  {
+    "name": "Books & Reading Devices",
+    "description": "Digital reading devices and accessories for book lovers. Discover the latest Kindle Paperwhite and other e-readers that provide the perfect reading experience with adjustable lighting and long battery life.",
+    "createdAt": "2025-06-27T05:31:45.827+00:00",
+    "updatedAt": "2025-06-27T05:31:45.827+00:00"
+  }
+] 

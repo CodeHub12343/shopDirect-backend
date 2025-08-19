@@ -1,0 +1,442 @@
+[
+  {
+    "name": "Apple iPhone 14 Pro Max",
+    "description": "The iPhone 14 Pro Max features a 6.7-inch Super Retina XDR display, A16 Bionic chip, and an advanced 48MP triple-camera system. Supports 5G and Face ID.",
+    "price": 1399,
+    "imageCover": "download (1).jpeg",
+    "images": ["download (2).jpeg", "download (3).jpeg", "download (4).jpeg"],
+    "category": "688cb3de55658900de661304",
+    "ratingsAverage": 4.8,
+    "ratingsQuantity": 1523
+  },
+  {
+    "name": "Nike Air Max 270",
+    "description": "Experience all-day comfort with Nike's Air Max 270 sneakers, featuring a bold design and responsive cushioning for athletic and casual wear.",
+    "price": 150,
+    "imageCover": "AIR+MAX+270 (2).avif",
+    "images": ["download (5).jpeg", "download (6).jpeg"],
+    "category": "688cb3de55658900de661305",
+    "ratingsAverage": 4.6,
+    "ratingsQuantity": 342
+  },
+  {
+    "name": "Samsung 55-inch QLED 4K Smart TV",
+    "description": "Brilliant colors and immersive visuals with this 4K QLED Smart TV. Powered by Tizen OS, includes voice control, HDR10+, and seamless streaming support.",
+    "price": 749,
+    "imageCover": "us-qled-qef1-qn55qef1afxza-547035158.webp",
+    "images": ["us-qled-qef1-qn55qef1afxza-547034433.webp", "us-qled-qef1-548500-qn55qef1afxza-547033830.webp"],
+    "category": "688cb3de55658900de661306",
+    "ratingsAverage": 4.7,
+    "ratingsQuantity": 987
+  },
+  {
+    "name": "Sony WH-1000XM5 Wireless Noise-Cancelling Headphones",
+    "description": "Industry-leading noise cancellation with superb audio quality and 30-hour battery life. Includes touch controls, quick charge, and voice assistant support.",
+    "price": 399,
+    "imageCover": "download (7).jpeg",
+    "images": ["download (8).jpeg", "download (9).jpeg"],
+    "category": "688cb3de55658900de661304",
+    "ratingsAverage": 4.9,
+    "ratingsQuantity": 2844
+  },
+  {
+    "name": "Adidas Originals Hoodie",
+    "description": "This classic Adidas hoodie is made from soft fleece with a kangaroo pocket and the signature 3-stripe design. Ideal for casual or gym wear.",
+    "price": 65,
+    "imageCover": "hoodie.avif",
+    "images": ["trefoil-essentials-hoodie.avif", "neuclassics-hoodie.avif"],
+    "category": "688cb3de55658900de661305",
+    "ratingsAverage": 4.4,
+    "ratingsQuantity": 122
+  },
+  {
+    "name": "Instant Pot Duo 7-in-1 Electric Pressure Cooker",
+    "description": "Multifunctional cooker that combines 7 appliances in 1: pressure cooker, slow cooker, rice cooker, steamer, sauté pan, yogurt maker, and warmer.",
+    "price": 99,
+    "imageCover": "download (10).jpeg",
+    "images": ["download (11).jpeg", "download (12).jpeg"],
+    "category": "688cb3de55658900de661307",
+    "ratingsAverage": 4.8,
+    "ratingsQuantity": 1522
+  },
+  {
+    "name": "Logitech MX Master 3 Wireless Mouse",
+    "description": "Ergonomic design, precision scrolling, and app-specific profiles make this the go-to mouse for developers, designers, and office power users.",
+    "price": 99,
+    "imageCover": "download (13).jpeg",
+    "images": ["download (14).jpeg", "download (15).jpeg"],
+    "category": "688cb3de55658900de661304",
+    "ratingsAverage": 4.7,
+    "ratingsQuantity": 701
+  },
+  {
+    "name": "Kindle Paperwhite (11th Gen)",
+    "description": "Enjoy reading in any light with a glare-free 6.8\" display and adjustable warm light. Waterproof and now with USB-C charging.",
+    "price": 139,
+    "imageCover": "download (16).jpeg",
+    "images": ["download (17).jpeg", "download (18).jpeg"],
+    "category": "688cb3de55658900de661308",
+    "ratingsAverage": 4.6,
+    "ratingsQuantity": 935
+  },
+  {
+    "name": "Levi's 501 Original Fit Jeans",
+    "description": "Timeless straight-leg jeans with durable denim and a classic button-fly. Perfect for both everyday wear and more dressed-up fits.",
+    "price": 59,
+    "imageCover": "download (19).jpeg",
+    "images": ["download (20).jpeg", "download (21).jpeg"],
+    "category": "688cb3de55658900de661305",
+    "ratingsAverage": 4.5,
+    "ratingsQuantity": 387
+  },
+  {
+    "name": "HP Envy x360 2-in-1 Laptop",
+    "description": "This powerful and versatile convertible laptop features a 13.3\" FHD touchscreen, AMD Ryzen 7 processor, 16GB RAM, and 512GB SSD.",
+    "price": 849,
+    "imageCover": "download (22).jpeg",
+    "images": ["download (23).jpeg", "download (24).jpeg"],
+    "category": "688cb3de55658900de661304",
+    "ratingsAverage": 4.6,
+    "ratingsQuantity": 671
+  },
+  {
+    "name": "MacBook Pro 16-inch M2 Max",
+    "description": "The ultimate MacBook Pro with M2 Max chip, 32GB unified memory, 1TB SSD, and 16-inch Liquid Retina XDR display. Perfect for professional workflows, video editing, and development.",
+    "price": 3499,
+    "imageCover": "download (25).jpeg",
+    "images": ["download (26).jpeg", "download (27).jpeg", "download (28).jpeg"],
+    "category": "688cb3de55658900de661304",
+    "ratingsAverage": 4.9,
+    "ratingsQuantity": 2847
+  },
+  {
+    "name": "Canon EOS R6 Mark II Mirrorless Camera",
+    "description": "Professional mirrorless camera with 24.2MP full-frame sensor, 4K video recording, 12fps continuous shooting, and advanced autofocus with 1053 AF points.",
+    "price": 2499,
+    "imageCover": "download (29).jpeg",
+    "images": ["download (30).jpeg", "download (31).jpeg", "download (32).jpeg"],
+    "category": "688cb3de55658900de661304",
+    "ratingsAverage": 4.8,
+    "ratingsQuantity": 1243
+  },
+  {
+    "name": "Dyson V15 Detect Absolute Cordless Vacuum",
+    "description": "Revolutionary cordless vacuum with laser dust detection, 240AW suction power, 60-minute runtime, and advanced filtration system. Includes 8 accessories for all cleaning needs.",
+    "price": 699,
+    "imageCover": "download (33).jpeg",
+    "images": ["download (34).jpeg", "download (35).jpeg", "download (36).jpeg"],
+    "category": "688cb3de55658900de661307",
+    "ratingsAverage": 4.7,
+    "ratingsQuantity": 2156
+  },
+  {
+    "name": "Nike ZoomX Vaporfly NEXT% 2",
+    "description": "Elite racing shoes with ZoomX foam, carbon fiber plate, and aerodynamic design. Used by professional runners to break world records. Lightweight and responsive.",
+    "price": 250,
+    "imageCover": "download (37).jpeg",
+    "images": ["download (38).jpeg", "download (39).jpeg", "download (40).jpeg"],
+    "category": "688cb3de55658900de661305",
+    "ratingsAverage": 4.9,
+    "ratingsQuantity": 892
+  },
+  {
+    "name": "Samsung Galaxy S23 Ultra",
+    "description": "Flagship Android smartphone with 200MP camera system, S Pen integration, 6.8-inch Dynamic AMOLED display, and Snapdragon 8 Gen 2 processor. 5G capable with 512GB storage.",
+    "price": 1199,
+    "imageCover": "download (41).jpeg",
+    "images": ["download (42).jpeg", "download (43).jpeg", "download (44).jpeg"],
+    "category": "688cb3de55658900de661304",
+    "ratingsAverage": 4.8,
+    "ratingsQuantity": 3421
+  },
+  {
+    "name": "Breville Barista Express Espresso Machine",
+    "description": "Semi-automatic espresso machine with built-in conical burr grinder, PID temperature control, and 15-bar Italian pump. Includes milk frother and tamper for café-quality coffee.",
+    "price": 699,
+    "imageCover": "download (45).jpeg",
+    "images": ["download (46).jpeg", "download (47).jpeg", "download (48).jpeg"],
+    "category": "688cb3de55658900de661307",
+    "ratingsAverage": 4.6,
+    "ratingsQuantity": 1876
+  },
+  {
+    "name": "Apple Watch Series 8",
+    "description": "Advanced health monitoring with ECG, blood oxygen, temperature sensing, and crash detection. Always-On Retina display, GPS, and cellular connectivity. 18-hour battery life.",
+    "price": 399,
+    "imageCover": "download (49).jpeg",
+    "images": ["download (50).jpeg", "download (51).jpeg", "download (52).jpeg"],
+    "category": "688cb3de55658900de661304",
+    "ratingsAverage": 4.7,
+    "ratingsQuantity": 3245
+  },
+  {
+    "name": "Patagonia Down Sweater Jacket",
+    "description": "Lightweight, packable down jacket with 800-fill-power goose down insulation. Durable water-repellent finish, zippered hand pockets, and adjustable drawcord hem.",
+    "price": 229,
+    "imageCover": "download (53).jpeg",
+    "images": ["download (54).jpeg", "download (55).jpeg", "download (56).jpeg"],
+    "category": "688cb3de55658900de661305",
+    "ratingsAverage": 4.8,
+    "ratingsQuantity": 1456
+  },
+  {
+    "name": "DJI Mini 3 Pro Drone",
+    "description": "Ultralight drone weighing under 249g with 4K/60fps video, 48MP photos, and 34-minute flight time. Includes obstacle avoidance, automated flight modes, and 12km transmission range.",
+    "price": 759,
+    "imageCover": "download (57).jpeg",
+    "images": ["download (58).jpeg", "download (59).jpeg", "download (60).jpeg"],
+    "category": "688cb3de55658900de661304",
+    "ratingsAverage": 4.9,
+    "ratingsQuantity": 2134
+  },
+  {
+    "name": "Vitamix 5200 Blender",
+    "description": "Professional-grade blender with 2.2-peak horsepower motor, 64-ounce container, and variable speed control. Perfect for smoothies, soups, nut butters, and frozen desserts.",
+    "price": 449,
+    "imageCover": "download (61).jpeg",
+    "images": ["download (62).jpeg", "download (63).jpeg", "download (64).jpeg"],
+    "category": "688cb3de55658900de661307",
+    "ratingsAverage": 4.8,
+    "ratingsQuantity": 2987
+  },
+  {
+    "name": "ASUS ROG Strix G15 Gaming Laptop",
+    "description": "Gaming laptop with AMD Ryzen 9 6900HX, NVIDIA RTX 3070 Ti, 16GB DDR5 RAM, 1TB PCIe SSD, and 15.6-inch 165Hz QHD display. RGB keyboard and advanced cooling system.",
+    "price": 1499,
+    "imageCover": "download (65).jpeg",
+    "images": ["download (66).jpeg", "download (67).jpeg", "download (68).jpeg"],
+    "category": "688cb3de55658900de661304",
+    "ratingsAverage": 4.7,
+    "ratingsQuantity": 987
+  },
+  {
+    "name": "Bose QuietComfort 45 Headphones",
+    "description": "Premium noise-cancelling headphones with 24-hour battery life, adjustable noise cancellation, and premium comfort. Includes carrying case and audio cable.",
+    "price": 329,
+    "imageCover": "download (69).jpeg",
+    "images": ["download (70).jpeg", "download (71).jpeg", "download (72).jpeg"],
+    "category": "688cb3de55658900de661304",
+    "ratingsAverage": 4.6,
+    "ratingsQuantity": 1876
+  },
+  {
+    "name": "Lululemon Align High-Rise Pants",
+    "description": "Ultra-soft, lightweight leggings with 4-way stretch and buttery-soft Nulu fabric. High-rise design with wide waistband for comfort during yoga and everyday wear.",
+    "price": 98,
+    "imageCover": "download (73).jpeg",
+    "images": ["download (74).jpeg", "download (75).jpeg", "download (76).jpeg"],
+    "category": "688cb3de55658900de661305",
+    "ratingsAverage": 4.9,
+    "ratingsQuantity": 4567
+  },
+  {
+    "name": "KitchenAid Artisan Stand Mixer",
+    "description": "Professional 5-quart stand mixer with 10-speed planetary mixing action, tilt-head design, and 325W motor. Includes flat beater, dough hook, and wire whip attachments.",
+    "price": 379,
+    "imageCover": "download (77).jpeg",
+    "images": ["download (78).jpeg", "download (79).jpeg", "download (80).jpeg"],
+    "category": "688cb3de55658900de661307",
+    "ratingsAverage": 4.8,
+    "ratingsQuantity": 3245
+  },
+  {
+    "name": "GoPro HERO11 Black",
+    "description": "Action camera with 27MP sensor, 5.3K60 video, 2.7K240 slow motion, and HyperSmooth 5.0 stabilization. Waterproof to 33ft and includes removable lens cover.",
+    "price": 499,
+    "imageCover": "download (81).jpeg",
+    "images": ["download (82).jpeg", "download (83).jpeg", "download (84).jpeg"],
+    "category": "688cb3de55658900de661304",
+    "ratingsAverage": 4.7,
+    "ratingsQuantity": 2134
+  },
+  {
+    "name": "Nike Air Jordan 1 Retro High OG",
+    "description": "Iconic basketball sneakers with premium leather upper, Air-Sole unit in midsole, and classic Wings logo. Available in multiple colorways with high-top design.",
+    "price": 170,
+    "imageCover": "download (85).jpeg",
+    "images": ["download (86).jpeg", "download (87).jpeg", "images.jpeg"],
+    "category": "688cb3de55658900de661305",
+    "ratingsAverage": 4.8,
+    "ratingsQuantity": 5678
+  },
+  {
+    "name": "Sony PlayStation 5 Console",
+    "description": "Next-generation gaming console with custom AMD Zen 2 processor, 4K graphics, ray tracing, and ultra-high-speed SSD. Includes DualSense wireless controller.",
+    "price": 499,
+    "imageCover": "images (1).jpeg",
+    "images": ["download.jpeg", "download.png"],
+    "category": "688cb3de55658900de661304",
+    "ratingsAverage": 4.9,
+    "ratingsQuantity": 7892
+  },
+  {
+    "name": "Cuisinart Food Processor",
+    "description": "14-cup food processor with 720W motor, stainless steel blades, and multiple attachments for slicing, shredding, and chopping. Includes storage case and recipe book.",
+    "price": 199,
+    "imageCover": "SharedScreenshotdjanx.jpg",
+    "images": ["us-qled-qef1-548500-qn55qef1afxza-547033845.webp"],
+    "category": "688cb3de55658900de661307",
+    "ratingsAverage": 4.6,
+    "ratingsQuantity": 1456
+  },
+  {
+    "name": "Microsoft Surface Pro 9",
+    "description": "2-in-1 tablet and laptop with 13-inch PixelSense display, Intel Core i7 processor, 16GB RAM, and 512GB SSD. Includes Surface Pen and detachable keyboard.",
+    "price": 1299,
+    "imageCover": "download (80).jpeg",
+    "images": ["download (79).jpeg", "download (78).jpeg"],
+    "category": "688cb3de55658900de661304",
+    "ratingsAverage": 4.7,
+    "ratingsQuantity": 2341
+  },
+  {
+    "name": "Adidas Ultraboost 22 Running Shoes",
+    "description": "Premium running shoes with responsive Boost midsole, Primeknit+ upper, and Continental rubber outsole. Energy-returning cushioning for maximum comfort during long runs.",
+    "price": 190,
+    "imageCover": "download (77).jpeg",
+    "images": ["download (76).jpeg", "download (75).jpeg"],
+    "category": "688cb3de55658900de661305",
+    "ratingsAverage": 4.8,
+    "ratingsQuantity": 3456
+  },
+  {
+    "name": "Samsung 65-inch Neo QLED 8K Smart TV",
+    "description": "Revolutionary 8K resolution with Quantum Matrix Technology, Neo Quantum Processor, and Object Tracking Sound. Features Infinity Screen design and Gaming Hub.",
+    "price": 2999,
+    "imageCover": "us-qled-qef1-548500-qn55qef1afxza-547033830.webp",
+    "images": ["us-qled-qef1-qn55qef1afxza-547034433.webp", "us-qled-qef1-qn55qef1afxza-547035158.webp"],
+    "category": "688cb3de55658900de661306",
+    "ratingsAverage": 4.9,
+    "ratingsQuantity": 1234
+  },
+  {
+    "name": "Ninja Foodi 9-in-1 Deluxe XL Cooker",
+    "description": "Multi-functional cooker combining pressure cooker, air fryer, slow cooker, steamer, and more. 8-quart capacity with TenderCrisp technology for perfect results.",
+    "price": 199,
+    "imageCover": "download (74).jpeg",
+    "images": ["download (73).jpeg", "download (72).jpeg"],
+    "category": "688cb3de55658900de661307",
+    "ratingsAverage": 4.7,
+    "ratingsQuantity": 2987
+  },
+  {
+    "name": "Apple AirPods Pro (2nd Generation)",
+    "description": "Active noise cancellation with Adaptive Transparency, Personalized Spatial Audio, and sweat and water resistance. Up to 6 hours listening time with charging case.",
+    "price": 249,
+    "imageCover": "download (71).jpeg",
+    "images": ["download (70).jpeg", "download (69).jpeg"],
+    "category": "688cb3de55658900de661304",
+    "ratingsAverage": 4.8,
+    "ratingsQuantity": 5678
+  },
+  {
+    "name": "The North Face Nuptse Jacket",
+    "description": "Iconic down jacket with 700-fill-power goose down insulation, durable water-repellent finish, and classic box baffle construction. Available in multiple colors.",
+    "price": 299,
+    "imageCover": "download (68).jpeg",
+    "images": ["download (67).jpeg", "download (66).jpeg"],
+    "category": "688cb3de55658900de661305",
+    "ratingsAverage": 4.7,
+    "ratingsQuantity": 2345
+  },
+  {
+    "name": "LG 77-inch C2 OLED Smart TV",
+    "description": "Perfect blacks and infinite contrast with OLED technology, 4K resolution, and AI-powered processing. Features Game Optimizer, webOS, and voice control.",
+    "price": 2499,
+    "imageCover": "us-qled-qef1-548500-qn55qef1afxza-547033845.webp",
+    "images": ["us-qled-qef1-548500-qn55qef1afxza-547033830.webp", "us-qled-qef1-qn55qef1afxza-547035158.webp"],
+    "category": "688cb3de55658900de661306",
+    "ratingsAverage": 4.9,
+    "ratingsQuantity": 1876
+  },
+  {
+    "name": "Dell XPS 13 Plus Laptop",
+    "description": "Ultra-premium laptop with 13.4-inch 4K OLED display, Intel Core i7-1260P, 16GB LPDDR5 RAM, and 512GB PCIe SSD. InfinityEdge display and premium build quality.",
+    "price": 1499,
+    "imageCover": "download (65).jpeg",
+    "images": ["download (64).jpeg", "download (63).jpeg"],
+    "category": "688cb3de55658900de661304",
+    "ratingsAverage": 4.8,
+    "ratingsQuantity": 1456
+  },
+  {
+    "name": "Brooks Ghost 14 Running Shoes",
+    "description": "Neutral running shoes with DNA LOFT v2 cushioning, engineered mesh upper, and segmented crash pad. Perfect for daily training and long-distance running.",
+    "price": 130,
+    "imageCover": "download (62).jpeg",
+    "images": ["download (61).jpeg", "download (60).jpeg"],
+    "category": "688cb3de55658900de661305",
+    "ratingsAverage": 4.6,
+    "ratingsQuantity": 2987
+  },
+  {
+    "name": "KitchenAid Professional 600 Series Mixer",
+    "description": "Professional 6-quart stand mixer with 575W motor, 10-speed planetary mixing action, and tilt-head design. Includes flat beater, dough hook, wire whip, and pouring shield.",
+    "price": 449,
+    "imageCover": "download (59).jpeg",
+    "images": ["download (58).jpeg", "download (57).jpeg"],
+    "category": "688cb3de55658900de661307",
+    "ratingsAverage": 4.9,
+    "ratingsQuantity": 3456
+  },
+  {
+    "name": "Sony A7 IV Mirrorless Camera",
+    "description": "Full-frame mirrorless camera with 33MP sensor, 4K60p video, 10fps continuous shooting, and advanced autofocus. Features 5-axis stabilization and dual card slots.",
+    "price": 2499,
+    "imageCover": "download (56).jpeg",
+    "images": ["download (55).jpeg", "download (54).jpeg"],
+    "category": "688cb3de55658900de661304",
+    "ratingsAverage": 4.8,
+    "ratingsQuantity": 2134
+  },
+  {
+    "name": "Under Armour HOVR Phantom 3",
+    "description": "Running shoes with HOVR cushioning technology, engineered mesh upper, and external heel counter. Provides energy return and responsive feel for daily training.",
+    "price": 120,
+    "imageCover": "download (53).jpeg",
+    "images": ["download (52).jpeg", "download (51).jpeg"],
+    "category": "688cb3de55658900de661305",
+    "ratingsAverage": 4.5,
+    "ratingsQuantity": 987
+  },
+  {
+    "name": "Breville Smart Oven Air Fryer Pro",
+    "description": "13-in-1 countertop oven with air fryer, convection baking, slow cooking, and dehydration. 1800W power, 6-quart capacity, and 13 cooking functions.",
+    "price": 399,
+    "imageCover": "download (50).jpeg",
+    "images": ["download (49).jpeg", "download (48).jpeg"],
+    "category": "688cb3de55658900de661307",
+    "ratingsAverage": 4.7,
+    "ratingsQuantity": 1876
+  },
+  {
+    "name": "Razer Blade 15 Gaming Laptop",
+    "description": "Premium gaming laptop with Intel Core i7-12800H, NVIDIA RTX 3080 Ti, 32GB DDR5 RAM, 1TB SSD, and 15.6-inch QHD 240Hz display. RGB keyboard and vapor chamber cooling.",
+    "price": 2499,
+    "imageCover": "download (47).jpeg",
+    "images": ["download (46).jpeg", "download (45).jpeg"],
+    "category": "688cb3de55658900de661304",
+    "ratingsAverage": 4.8,
+    "ratingsQuantity": 1234
+  },
+  {
+    "name": "New Balance Fresh Foam X 1080v12",
+    "description": "Neutral running shoes with Fresh Foam X midsole, engineered knit upper, and blown rubber outsole. Maximum cushioning for long-distance comfort and smooth transitions.",
+    "price": 140,
+    "imageCover": "download (44).jpeg",
+    "images": ["download (43).jpeg", "download (42).jpeg"],
+    "category": "688cb3de55658900de661305",
+    "ratingsAverage": 4.7,
+    "ratingsQuantity": 2345
+  },
+  {
+    "name": "Philips Hue White and Color Ambiance Starter Kit",
+    "description": "Smart lighting system with 3 A19 bulbs, bridge, and remote control. 16 million colors, voice control compatibility, and automated scheduling. Works with Alexa and Google Home.",
+    "price": 199,
+    "imageCover": "download (41).jpeg",
+    "images": ["download (40).jpeg", "download (39).jpeg"],
+    "category": "688cb3de55658900de661304",
+    "ratingsAverage": 4.6,
+    "ratingsQuantity": 3456
+  }
+]

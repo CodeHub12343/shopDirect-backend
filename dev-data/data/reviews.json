@@ -1,0 +1,274 @@
+[
+  {
+  "review": "This headphone has amazing bass that you can really feel. The ANC works great in noisy environments.",
+  "rating": 5,
+  "user": "689485249ba0c6a64dd1175d",
+  "product": "6896f386bba3ce4c0bef6112"
+  },
+  {
+  "review": "The sound quality is top-notch, but the price is a bit high for what it offers.",
+  "rating": 4,
+  "user": "6895c033a0219ffa0700a7be",
+  "product": "6896f9543bfc705f1a91a28a"
+  },
+  {
+  "review": "Incredible visuals and sound integration. Perfect for immersive experiences.",
+  "rating": 5,
+  "user": "6895e0c47800d9e16f5a046b",
+  "product": "6896fa4d3bfc705f1a91a2b1"
+  },
+  {
+  "review": "The iPhone 16 Pro Max elevates my daily life with its stunning features and performance.",
+  "rating": 5,
+  "user": "6895e1e97800d9e16f5a049d",
+  "product": "6896facc3bfc705f1a91a2ca"
+  },
+  {
+  "review": "Samsung Galaxy S25 Ultra has excellent storage and powerful specs, but battery life could be better.",
+  "rating": 4,
+  "user": "6895e2db7800d9e16f5a04bd",
+  "product": "6896fdb23bfc705f1a91a304"
+  },
+  {
+  "review": "Sleek TV unit design that fits perfectly in my bedroom. Very sophisticated.",
+  "rating": 5,
+  "user": "6895e3687800d9e16f5a04d8",
+  "product": "68971010abe2f1164d8461cc"
+  },
+  {
+  "review": "The black TV unit adds a modern touch, but assembly was a bit tricky.",
+  "rating": 3,
+  "user": "5c8a211f2f8fb814b56fa188",
+  "product": "68971057abe2f1164d8461d8"
+  },
+  {
+  "review": "Compact and stylish TV unit, great for small spaces.",
+  "rating": 4,
+  "user": "688f84abba585bcd43364324",
+  "product": "689710e6abe2f1164d8461e4"
+  },
+  {
+  "review": "Xiaomi Soundbar delivers immersive 3.1 channel sound, highly recommended.",
+  "rating": 5,
+  "user": "688f8563ba585bcd4336432d",
+  "product": "689711aeabe2f1164d8461f8"
+  },
+  {
+  "review": "Samsung OLED TV has vibrant colors and deep blacks, but the remote is finicky.",
+  "rating": 4,
+  "user": "688f8618b9b755681d4e8166",
+  "product": "6897125cabe2f1164d846204"
+  },
+  {
+  "review": "Bass-heavy headphones that make music come alive. Comfortable for long sessions.",
+  "rating": 5,
+  "user": "6893242f4ce1700ba086d2a0",
+  "product": "6896f386bba3ce4c0bef6112"
+  },
+  {
+  "review": "Adaptive ANC is a game-changer, but connectivity issues occasionally.",
+  "rating": 3,
+  "user": "68933d43201409f86fb38856",
+  "product": "6896f9543bfc705f1a91a28a"
+  },
+  {
+  "review": "Visual sound effects are innovative and fun to watch.",
+  "rating": 5,
+  "user": "689485249ba0c6a64dd1175d",
+  "product": "6896fa4d3bfc705f1a91a2b1"
+  },
+  {
+  "review": "iPhone's camera and speed are unbeatable, worth every penny.",
+  "rating": 5,
+  "user": "6895c033a0219ffa0700a7be",
+  "product": "6896facc3bfc705f1a91a2ca"
+  },
+  {
+  "review": "Galaxy S25 Ultra's display is stunning, but software updates are slow.",
+  "rating": 4,
+  "user": "6895e0c47800d9e16f5a046b",
+  "product": "6896fdb23bfc705f1a91a304"
+  },
+  {
+  "review": "Black TV unit looks premium, easy to clean and maintain.",
+  "rating": 5,
+  "user": "6895e1e97800d9e16f5a049d",
+  "product": "68971010abe2f1164d8461cc"
+  },
+  {
+  "review": "Sophisticated design, but could use more storage compartments.",
+  "rating": 4,
+  "user": "6895e2db7800d9e16f5a04bd",
+  "product": "68971057abe2f1164d8461d8"
+  },
+  {
+  "review": "TV unit is sturdy and sleek, perfect for modern bedrooms.",
+  "rating": 5,
+  "user": "6895e3687800d9e16f5a04d8",
+  "product": "689710e6abe2f1164d8461e4"
+  },
+  {
+  "review": "Soundbar enhances movie nights with clear audio and strong bass.",
+  "rating": 5,
+  "user": "5c8a211f2f8fb814b56fa188",
+  "product": "689711aeabe2f1164d8461f8"
+  },
+  {
+  "review": "OLED TV's picture quality is breathtaking, highly immersive.",
+  "rating": 5,
+  "user": "688f84abba585bcd43364324",
+  "product": "6897125cabe2f1164d846204"
+  },
+  {
+  "review": "Headphones provide deep bass, but ear cups get warm after a while.",
+  "rating": 4,
+  "user": "688f8563ba585bcd4336432d",
+  "product": "6896f386bba3ce4c0bef6112"
+  },
+  {
+  "review": "Great ANC, but the app could be more user-friendly.",
+  "rating": 4,
+  "user": "688f8618b9b755681d4e8166",
+  "product": "6896f9543bfc705f1a91a28a"
+  },
+  {
+  "review": "Sound visualization is unique, adds a new dimension to listening.",
+  "rating": 5,
+  "user": "6893242f4ce1700ba086d2a0",
+  "product": "6896fa4d3bfc705f1a91a2b1"
+  },
+  {
+  "review": "iPhone 16 Pro Max has amazing battery life and pro features.",
+  "rating": 5,
+  "user": "68933d43201409f86fb38856",
+  "product": "6896facc3bfc705f1a91a2ca"
+  },
+  {
+  "review": "Samsung phone's camera is pro-level, but price is steep.",
+  "rating": 4,
+  "user": "689485249ba0c6a64dd1175d",
+  "product": "6896fdb23bfc705f1a91a304"
+  },
+  {
+  "review": "TV unit in black is elegant, blends well with decor.",
+  "rating": 5,
+  "user": "6895c033a0219ffa0700a7be",
+  "product": "68971010abe2f1164d8461cc"
+  },
+  {
+  "review": "Sleek look, but material feels a bit cheap.",
+  "rating": 3,
+  "user": "6895e0c47800d9e16f5a046b",
+  "product": "68971057abe2f1164d8461d8"
+  },
+  {
+  "review": "Functional TV unit, good value for money.",
+  "rating": 4,
+  "user": "6895e1e97800d9e16f5a049d",
+  "product": "689710e6abe2f1164d8461e4"
+  },
+  {
+  "review": "Soundbar's 3.1 ch setup is powerful for home theater.",
+  "rating": 5,
+  "user": "6895e2db7800d9e16f5a04bd",
+  "product": "689711aeabe2f1164d8461f8"
+  },
+  {
+  "review": "77 OLED TV is huge and picture-perfect but expensive.",
+  "rating": 4,
+  "user": "6895e3687800d9e16f5a04d8",
+  "product": "6897125cabe2f1164d846204"
+  },
+  {
+  "review": "Bass you can feel is no joke, these headphones deliver.",
+  "rating": 5,
+  "user": "5c8a211f2f8fb814b56fa188",
+  "product": "6896f386bba3ce4c0bef6112"
+  },
+  {
+  "review": "Tailored sound with ANC, ideal for commuters.",
+  "rating": 5,
+  "user": "688f84abba585bcd43364324",
+  "product": "6896f9543bfc705f1a91a28a"
+  },
+  {
+  "review": "See the sound feature is mesmerizing.",
+  "rating": 5,
+  "user": "688f8563ba585bcd4336432d",
+  "product": "6896fa4d3bfc705f1a91a2b1"
+  },
+  {
+  "review": "Elevates life with its advanced tech and design.",
+  "rating": 5,
+  "user": "688f8618b9b755681d4e8166",
+  "product": "6896facc3bfc705f1a91a2ca"
+  },
+  {
+  "review": "Powerful phone with ample storage, smooth performance.",
+  "rating": 5,
+  "user": "6893242f4ce1700ba086d2a0",
+  "product": "6896fdb23bfc705f1a91a304"
+  },
+  {
+  "review": "Bedroom TV unit is stylish and practical.",
+  "rating": 4,
+  "user": "68933d43201409f86fb38856",
+  "product": "68971010abe2f1164d8461cc"
+  },
+  {
+  "review": "Sophisticated black design, enhances room aesthetics.",
+  "rating": 5,
+  "user": "689485249ba0c6a64dd1175d",
+  "product": "68971057abe2f1164d8461d8"
+  },
+  {
+  "review": "Sleek TV unit, but installation instructions unclear.",
+  "rating": 3,
+  "user": "6895c033a0219ffa0700a7be",
+  "product": "689710e6abe2f1164d8461e4"
+  },
+  {
+  "review": "New soundbar is a welcome addition to my setup.",
+  "rating": 5,
+  "user": "6895e0c47800d9e16f5a046b",
+  "product": "689711aeabe2f1164d8461f8"
+  },
+  {
+  "review": "Samsung TV's OLED panel is superior in quality.",
+  "rating": 5,
+  "user": "6895e1e97800d9e16f5a049d",
+  "product": "6897125cabe2f1164d846204"
+  },
+  {
+  "review": "Headphones with bass that vibrates, awesome for EDM.",
+  "rating": 5,
+  "user": "6895e2db7800d9e16f5a04bd",
+  "product": "6896f386bba3ce4c0bef6112"
+  },
+  {
+  "review": "ANC adapts well, but battery drains faster than expected.",
+  "rating": 4,
+  "user": "6895e3687800d9e16f5a04d8",
+  "product": "6896f9543bfc705f1a91a28a"
+  },
+  {
+  "review": "Innovative sound visualization, great for parties.",
+  "rating": 5,
+  "user": "5c8a211f2f8fb814b56fa188",
+  "product": "6896fa4d3bfc705f1a91a2b1"
+  },
+  {
+  "review": "iPhone features are stunning, camera is a highlight.",
+  "rating": 5,
+  "user": "688f84abba585bcd43364324",
+  "product": "6896facc3bfc705f1a91a2ca"
+  },
+  {
+  "review": "Galaxy Ultra's poster design is appealing, phone is beast.",
+  "rating": 5,
+  "user": "688f8563ba585bcd4336432d",
+  "product": "6896fdb23bfc705f1a91a304"
+  }
+  ] 
+
+ 
