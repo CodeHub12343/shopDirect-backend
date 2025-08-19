@@ -237,8 +237,42 @@ exports.restrictTo = (...roles) => {
       expiresIn: process.env.JWT_EXPIRES_IN,
     });
   };
-  
+
+
   const createSendToken = (user, statusCode, req, res) => {
+    const token = signToken(user._id);
+    const isProd = process.env.NODE_ENV === 'production';
+  
+    const sameSite = isProd ? 'none' : 'lax';
+    
+    // ✅ Updated cookie configuration for production
+    const cookieOptions = {
+      expires: new Date(
+        Date.now() + process.env.JWT_COOKIE_EXPIRES_IN * 24 * 60 * 60 * 1000
+      ),
+      httpOnly: true,
+      secure: req.secure || req.headers['x-forwarded-proto'] === 'https',
+      sameSite,
+    };
+  
+    // ✅ Add domain for production cross-domain sharing
+    if (isProd) {
+      cookieOptions.domain = '.onrender.com'; // Allow sharing between subdomains
+    }
+  
+    res.cookie('jwt', token, cookieOptions);
+  
+    // ✅ Remove password from output
+    user.password = undefined;
+  
+    res.status(statusCode).json({
+      status: 'success',
+      token,
+      data: { user },
+    });
+  };
+  
+ /*  const createSendToken = (user, statusCode, req, res) => {
     const token = signToken(user._id);
     const isProd = process.env.NODE_ENV === 'production';
   
@@ -262,7 +296,7 @@ exports.restrictTo = (...roles) => {
       data: { user },
     });
   };
-  
+   */
   // ===============================
   // 📝 SIGNUP
   // ===============================
@@ -303,13 +337,30 @@ exports.restrictTo = (...roles) => {
   // ===============================
   // 🚪 LOGOUT
   // ===============================
-  exports.logout = (req, res) => {
+/*   exports.logout = (req, res) => {
     res.cookie('jwt', 'loggedout', {
       expires: new Date(Date.now() + 1 * 1000),
       httpOnly: true,
       sameSite: 'none',
       secure: true,
     });
+    res.status(200).json({ status: 'success' });
+  }; */
+
+  exports.logout = (req, res) => {
+    const cookieOptions = {
+      expires: new Date(Date.now() + 1 * 1000),
+      httpOnly: true,
+      sameSite: 'none',
+      secure: true,
+    };
+  
+    // ✅ Add domain for production
+    if (process.env.NODE_ENV === 'production') {
+      cookieOptions.domain = '.onrender.com';
+    }
+  
+    res.cookie('jwt', 'loggedout', cookieOptions);
     res.status(200).json({ status: 'success' });
   };
   
