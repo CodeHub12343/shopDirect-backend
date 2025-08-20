@@ -24,15 +24,14 @@ const processProductImages = (product) => {
   
   const processed = product.toObject ? product.toObject() : { ...product };
   
-  // Convert imageCover to full URL
-  if (processed.imageCover) {
-    processed.imageCover = getImageUrl(processed.imageCover);
-  }
+  // Do NOT overwrite original fields; add derived URL fields
+  processed.imageCoverUrl = processed.imageCover
+    ? getImageUrl(processed.imageCover)
+    : null;
   
-  // Convert images array to full URLs
-  if (processed.images && Array.isArray(processed.images)) {
-    processed.images = processed.images.map(img => getImageUrl(img));
-  }
+  processed.imageUrls = Array.isArray(processed.images)
+    ? processed.images.map((img) => getImageUrl(img))
+    : [];
   
   return processed;
 };
@@ -41,7 +40,7 @@ const processProductImages = (product) => {
 const processProductsImages = (products) => {
   if (!Array.isArray(products)) return products;
   
-  return products.map(product => processProductImages(product));
+  return products.map((product) => processProductImages(product));
 };
 
 // MULTER CONFIGURATION
@@ -278,13 +277,11 @@ exports.topRatedProduct = async (req, res) => {
     },
   ]);
 
-  // Process image URLs for aggregated results
-  const processedTopRated = topRated.map(product => {
-    if (product.imageCover) {
-      product.imageCover = getImageUrl(product.imageCover);
-    }
-    return product;
-  });
+  // Add derived URL field without changing original
+  const processedTopRated = topRated.map((product) => ({
+    ...product,
+    imageCoverUrl: product.imageCover ? getImageUrl(product.imageCover) : null,
+  }));
 
   res.status(200).json({
     status: 'success',
