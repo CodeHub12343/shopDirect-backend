@@ -5,6 +5,45 @@ const multer = require('multer');
 const sharp = require('sharp');
 const AppError = require('./../utills/AppError');
 
+// Helper function to get full image URL
+const getImageUrl = (filename) => {
+  if (!filename) return null;
+  
+  // In production, use the full API URL
+  if (process.env.NODE_ENV === 'production') {
+    return `https://shopdirect-api.onrender.com/img/products/${filename}`;
+  }
+  
+  // In development, use relative path
+  return `/img/products/${filename}`;
+};
+
+// Helper function to process product images
+const processProductImages = (product) => {
+  if (!product) return product;
+  
+  const processed = product.toObject ? product.toObject() : { ...product };
+  
+  // Convert imageCover to full URL
+  if (processed.imageCover) {
+    processed.imageCover = getImageUrl(processed.imageCover);
+  }
+  
+  // Convert images array to full URLs
+  if (processed.images && Array.isArray(processed.images)) {
+    processed.images = processed.images.map(img => getImageUrl(img));
+  }
+  
+  return processed;
+};
+
+// Helper function to process multiple products
+const processProductsImages = (products) => {
+  if (!Array.isArray(products)) return products;
+  
+  return products.map(product => processProductImages(product));
+};
+
 // MULTER CONFIGURATION
 const multerStorage = multer.memoryStorage();
 
@@ -139,13 +178,16 @@ exports.getProduct = catchAsync(async (req, res, next) => {
 
   const products = await featuresForData.query;
 
+  // 4) Process image URLs
+  const processedProducts = processProductsImages(products);
+
   // 4) Send response
   res.status(200).json({
     status: 'success',
     total,                  // total count before pagination
     results: products.length, // count of products returned on this page
     data: {
-      products,
+      products: processedProducts,
     },
   });
 });
@@ -155,10 +197,13 @@ exports.getProduct = catchAsync(async (req, res, next) => {
 exports.createProduct = catchAsync(async (req, res) => {
   const product = await Product.create(req.body);
 
+  // Process image URLs
+  const processedProduct = processProductImages(product);
+
   res.status(200).json({
     status: 'success',
     data: {
-      product,
+      product: processedProduct,
     },
   });
 });
@@ -166,10 +211,13 @@ exports.createProduct = catchAsync(async (req, res) => {
 exports.getProductById = catchAsync(async (req, res) => {
   const product = await Product.findById(req.params.id).populate('reviews');
 
+  // Process image URLs
+  const processedProduct = processProductImages(product);
+
   res.status(200).json({
     status: 'success',
     data: {
-      product,
+      product: processedProduct,
     },
   });
 });
@@ -180,10 +228,13 @@ exports.updateProductById = catchAsync(async (req, res) => {
     runValidators: true,
   });
 
+  // Process image URLs
+  const processedProduct = processProductImages(product);
+
   res.status(200).json({
     status: 'success',
     data: {
-      product,
+      product: processedProduct,
     },
   });
 });
@@ -227,11 +278,19 @@ exports.topRatedProduct = async (req, res) => {
     },
   ]);
 
+  // Process image URLs for aggregated results
+  const processedTopRated = topRated.map(product => {
+    if (product.imageCover) {
+      product.imageCover = getImageUrl(product.imageCover);
+    }
+    return product;
+  });
+
   res.status(200).json({
     status: 'success',
     result: topRated.length,
     data: {
-      topRated,
+      topRated: processedTopRated,
     },
   });
 };
