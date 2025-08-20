@@ -15,7 +15,7 @@ const signToken = (id) => {
   });
 };
 
-const createSendToken = (user, statusCode, req, res) => {
+/* const createSendToken = (user, statusCode, req, res) => {
   const token = signToken(user._id);
   const isProd = process.env.NODE_ENV === 'production';
 
@@ -31,6 +31,32 @@ const createSendToken = (user, statusCode, req, res) => {
   });
 
   // ✅ Remove password from output
+  user.password = undefined;
+
+  res.status(statusCode).json({
+    status: 'success',
+    token,
+    data: { user },
+  });
+}; */
+
+const createSendToken = (user, statusCode, req, res) => {
+  const token = signToken(user._id);
+
+  // Force cross-site compatible cookie in production
+  const isProd = process.env.NODE_ENV === 'production';
+  const cookieOptions = {
+    expires: new Date(
+      Date.now() + process.env.JWT_COOKIE_EXPIRES_IN * 24 * 60 * 60 * 1000
+    ),
+    httpOnly: true,
+    secure: isProd || req.secure || req.headers['x-forwarded-proto'] === 'https',
+    sameSite: isProd ? 'none' : 'lax',
+  };
+  // Don’t set cookieOptions.domain – leave it unset
+
+  res.cookie('jwt', token, cookieOptions);
+
   user.password = undefined;
 
   res.status(statusCode).json({
@@ -83,9 +109,9 @@ exports.login = catchAsync(async (req, res, next) => {
 exports.logout = (req, res) => {
   const isProd = process.env.NODE_ENV === 'production';
   res.cookie('jwt', 'loggedout', {
-    expires: new Date(Date.now() + 10 * 1000),
+    expires: new Date(Date.now() + 1000),
     httpOnly: true,
-    secure: req.secure || req.headers['x-forwarded-proto'] === 'https',
+    secure: isProd || req.secure || req.headers['x-forwarded-proto'] === 'https',
     sameSite: isProd ? 'none' : 'lax',
   });
   res.status(200).json({ status: 'success' });
